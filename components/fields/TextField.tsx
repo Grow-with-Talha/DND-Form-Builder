@@ -239,7 +239,7 @@ export function FormComponent({
 }: {
   elementInstance: FormElementInstance;
   submitValue?: Submitfunction, 
-  isInvalid: boolean,
+  isInvalid?: boolean,
   defaultValue?: string, 
 }) {
   const element = elementInstance as customInstance;
